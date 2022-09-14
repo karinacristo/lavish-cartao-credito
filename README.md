@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="Web Preview" src="https://user-images.githubusercontent.com/94079921/190204128-311a70ad-9894-4ff8-b7d4-fd2dd4653c6a.jpeg">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+	 🚧 Lavish 💳 Concluído 🚀 🚧
+</h4>
 
-## Available Scripts
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a>
+</p>
 
-In the project directory, you can run:
+## 💻 Sobre o projeto
 
-### `npm start`
+💳 Lavish - é uma forma de conectar empresas e seus futuros clientes atráves dos seus serviço com planos de cartão de crédito de maneira simples, funcional e dinâmico.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🎨 Layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O layout da aplicação em versão Mobile e Web:
 
-### `npm run build`
+### Mobile
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190208453-a9c2089f-2cf2-4b38-bb22-324b4b6d77f6.jpg" width="200px">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190208593-35a60399-29ab-4880-bfc6-4de93c281b6d.jpg" width="200px">
+  
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190208950-b206d505-c410-40ae-a1c1-3daeb57365cc.jpg" width="200px">
+  
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190209531-9c5c94f8-8e40-4c2e-bd57-3b3934b172ef.jpg" width="200px">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Web
 
-### `npm run eject`
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190210012-90ba50d0-a4df-4088-bb88-0f489d50c600.png" width="400px">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190210320-28dee29b-c917-4b9a-a588-b2050745ccfb.png" width="400px">
+  
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190210564-5983fa17-c4d6-4eb7-94ba-d112ba30377b.png" width="400px">
+  
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/94079921/190210886-2469406f-a8dc-4241-9590-c7b55f19c6b0.png" width="400px">
+  
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Como executar o projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### 🧭 Rodando a aplicação web (Frontend)
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Clone este repositório
+$ git clone https://github.com/karinacristo/lavish-cartao-credito.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd lavish
 
-### Code Splitting
+# Instale as dependências
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-### Analyzing the Bundle Size
+# A aplicação será aberta na porta:3001 - acesse http://localhost:3001
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🛠 Tecnologias
 
-### Advanced Configuration
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### **Website**
 
-### Deployment
+-   **[React](https://reactjs.org/)**
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Veja o arquivo  [package.json](https://github.com/karinacristo/lavish-cartao-credito/blob/main/package.json)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Karina Cristo 👋🏽 [Entre em contato!](https://www.linkedin.com/in/karina-cristo/)
